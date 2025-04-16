@@ -23,16 +23,16 @@ Push-уведомления:
 Клонируйте репозиторий:
 
 bash
-Copy
+
 git clone [https://github.com/Minnone/zadanie8.git]
 Установите зависимости:
 
 bash
-Copy
+
 npm install
 Запустите приложение:
 
 bash
-Copy
+
 npm start
 Приложение будет доступно по адресу: http://localhost:8080
