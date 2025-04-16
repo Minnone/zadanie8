@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Менеджер задач</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icons/icon-192x192.png">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Менеджер задач</h1>
+      <button id="installBtn" class="btn hidden">Установить</button>
+      <button id="notifyBtn" class="btn">Включить уведомления</button>
+    </header>
+
+    <div class="task-form">
+      <input type="text" id="taskInput" placeholder="Добавить новую задачу...">
+      <button id="addTaskBtn" class="btn">Добавить</button>
+    </div>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">Все</button>
+      <button class="filter-btn" data-filter="active">Активные</button>
+      <button class="filter-btn" data-filter="completed">Выполненные</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
